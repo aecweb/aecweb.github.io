@@ -1,6 +1,6 @@
 {
-    "name": "Mobinnet",
-    "short_name": "Mobinnet",
+    "name": "panel_demo_mvc",
+    "short_name": "panel_demo_mvc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
