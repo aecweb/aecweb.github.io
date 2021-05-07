@@ -1,0 +1,40 @@
+{
+	"languages": {
+		"en-US": "English",
+		"fa-FA": "Persian"
+	},
+	"side_bar": {
+		"dashboard": "Dashboard",
+		"transaction": "Transaction",
+		"task": "Task",
+		"documents": "Documents",
+		"store": "Store",
+		"notification": "Notification",
+		"profile": "Profile",
+		"settings": "Settings"
+	},
+	"dashboard": {
+		"my_files": "My Files",
+		"add_new": "Add New",
+		"google_drive": "Google Drive",
+		"one_drive": "One Drive",
+		"drop_box": "Drop Box",
+		"files": "Files",
+		"file": "File",
+		"size": "Size",
+		"recent_file": "Recent Files",
+		"file_name": "File Name",
+		"date": "Date",
+		"xd_file": "XD File",
+		"figma_file": "Figma File",
+		"sound_file": "Sound File",
+		"media_file": "Media File",
+		"sals_file": "Sals File",
+		"excel_file": "Excel File",
+		"documents_files": "Documents Files",
+		"storage_details":"Storage Details",
+		"media_files": "Media Files",
+		"other_files": "Other Files",
+		"unknown_files": "Unknown Files"
+	}
+}
