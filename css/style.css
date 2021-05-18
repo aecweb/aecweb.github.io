@@ -1,0 +1,577 @@
+@font-face {
+    font-family: myFont;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+
+body {
+    font-family: myFont;
+    overflow-x: hidden;
+    color: #191919;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff5f00;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar{
+    padding-top: 40px;
+    padding-bottom:15px ;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.rel{
+    position: relative; 
+}
+
+.bg-light{
+    background: white !important;  
+}
+
+.sixt{
+    width: 120px;
+    
+    top: -8px;
+}
+
+
+.for-icon{
+    margin-left: 15px;
+}
+
+#login{
+    font-weight: bold;
+    top: -20px;
+}
+
+#login:hover{
+    font-weight: bold;
+    top: -20px;
+    color: black;
+}
+
+#person{
+    top:8px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.second-div{
+    background: #191919;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+}
+
+.top-search{
+    font-size: 0.875rem;
+    color: #ff5f00;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+
+.form-control{
+    background: transparent;  
+    border: transparent;
+    border-bottom:2px solid #ff5f00;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff5f00;
+    
+}
+
+
+.form-control:focus{
+    background: transparent;  
+    border: transparent;
+    border-bottom:2px solid #ff5f00;
+    border-radius: 0px;
+    font-weight: bold;
+    color: #ff5f00;
+    box-shadow: none !important;
+    
+}
+
+
+.col-3{
+    padding-right: 5px;
+    padding-left: 40px;
+}
+
+.border-4{
+    border-color: #6C757D;
+}
+
+.top-date{
+    color: #753B19;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 0.875rem;
+}
+
+.top-empty{
+    color: #191919;
+}
+
+.show-color{
+    border-radius: 0px;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    background-color: #ce6a30;
+    margin: 30px 6px;
+    left: 20px;
+    position: relative;
+    color: #fff;
+    outline:none !important;
+    font-weight: bold;
+    font-size:1.2rem ;
+    margin-bottom: 30px;
+    box-shadow: none !important;
+    
+    
+}
+
+
+
+@media(max-width: 960px){
+    .show-color{
+        padding-left: 130px;
+        padding-right: 130px;
+        background:#FF6F1A;
+        margin-bottom: 30px !important;
+    }
+    
+}
+
+.show-color:hover{
+    
+    border-radius: 0px;
+    border:none;
+    background-color: #ce6a30;
+    position: relative;
+    color: #fff !important;
+    outline:none !important;
+    font-size:1.2rem ;   
+    
+}
+
+.bg{
+    background: url(../img/bucharest-city-header.jpg);
+    height: 500px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.four-sm{
+    display: none;
+}
+
+.Bucharest-sm{
+    display: none;
+}
+
+@media(min-width:960px){
+   #Bucharest-w{
+    display: none;
+} 
+}
+
+
+@media(max-width: 960px){
+    .bg{
+        display: none;
+        background: white !important;
+    }
+    .bg-2{
+        display: none;
+    }
+    .four-lg{
+        display: none;
+    }
+    .four-sm{
+        display: block;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .second-div{
+        background: white;
+    }
+    .Bucharest-sm{
+        display: block;
+        background:black;
+        color: white;
+        font-size: 1.5rem !important;
+       
+    }.backgnd{
+         padding-top: 0px !important;
+        
+    }
+    #Bucharest-w{
+        padding: 10px 0px;
+    }
+    #Bucharest-w .col-12{
+        padding:10px 40px ;
+    } 
+    
+}
+
+
+.title{
+    
+    color: white;
+    font-size: 4rem;
+    top: 270px;
+    margin-left: 120px;
+    font-weight: bold;
+    position: relative;
+}
+
+.title-2{
+    color: white;
+    font-size: 2.5rem;
+    top: 280px;
+    margin-left: 120px;
+    position: relative;
+}
+
+
+
+.backgnd{
+    background: #FF5F00;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+
+.bg-3{
+    font-weight: bold;
+    color: #191919 !important ;
+    font-weight: 1 rem;
+}
+
+.bg-3:hover{
+    font-weight: bold;
+    color: #191919;
+}
+
+.Bucharest{
+    color: white !important;
+}
+
+.bg-5{
+    color: #191919 !important;
+    
+}
+
+.DEALS{
+    
+    line-height: 1;
+    width: 80%;
+}
+
+
+
+.bg-4{
+    padding-left: 140px;
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.map{
+    
+    width: 35vw;
+}
+
+.bucharest-city{
+    width: 35vw;
+    margin-top: 30px;
+    margin-left:30px ;
+}
+
+.item{
+    
+    line-height: 1.2;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-left: 30px;
+    width: 80%;
+}
+
+
+@media(max-width: 960px){
+    .bg-4{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .map{
+        width: 80vw;
+    }
+    .bucharest-city{
+        width: 78vw;
+    }
+    
+}
+
+
+.txt-pad{
+    padding-bottom: 60px;
+}
+
+.text-body{
+    
+    font-size: 0.9rem;
+    font-weight: 480;
+    width: 80%;
+    
+}
+
+.h-center{
+    
+    text-align: center;   
+}
+
+.button-see{
+    border-radius: 0px;
+    padding: 10px 50px 9px 50px;
+    border: 2px solid white;
+    background-color: #FF5F00;
+    margin: 30px 5px ;
+    position: relative;
+    color: #fff;
+    outline:none !important;
+    font-weight: bold;
+    font-size:1.2rem ;
+    margin-bottom: 30px;
+}
+
+.button-see:hover{
+    background-color: white;
+    color: #FF5F00;
+}
+
+
+.pad-p{
+    padding-left: 30px;
+}
+
+.back-w{
+    padding-bottom: 100px;
+}
+
+#collapseOne{
+    font-size: 2vw;
+}
+
+.card-header{
+    background:transparent;
+    border: 0px;
+}
+
+.clps-btn{
+    color: #FF8740;
+}
+
+.card-body{
+    font-size: 1rem;
+}
+
+.card{
+    padding-left: 140px;
+}
+
+.clps-padding{
+    padding-bottom: 30px;
+}
+
+.clps-img{
+    width: 260px;
+}
+
+@media(max-width: 960px){
+    .clps-padding{
+        padding-left: 0px;
+        padding-right: 20px;
+        margin-left: 30px;
+    }
+    .clps-img{
+        width: 80vw;
+        margin-bottom: 30px;       
+    }
+    
+}
+
+.imgs-pad{
+    margin-bottom: 30px;
+}
+
+.btn{
+    text-decoration: none !important;
+}
+
+.btn:hover{
+    color: #FF8740;
+}
+
+
+.orange-back{
+    background: #FF5F00;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-top: 160px;
+}
+
+
+@media(max-width: 960px){
+    .orange-back{
+        
+        padding-bottom: 80px !important;
+        padding: 0px;
+    }
+    
+}
+
+
+.orange-pad{
+    top: 60px;
+    padding-right:60px;
+    padding-left:60px ;   
+}
+
+.orange-txt-pad{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blk-box{
+    background: #191919;
+    height:260px ;
+    width: 260px;
+    top: -60px;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.4);
+}
+
+.blk-box-txt{
+    color: white;
+    top: 100px;
+    text-align: left;
+}
+
+.why {
+    display: none;
+}
+
+.footer{
+    background: #191919;
+    padding: 10px 50px !important;
+}
+
+@media(max-width: 960px){
+    .blk-box{
+        display: none;
+    }
+    .why{
+        display: block;
+        padding: 0px;
+        padding-left:50px;
+        padding-top: 30px;
+    }
+    .orange-txt-pad{
+        padding: 0px;
+        padding-bottom: 20px !important;
+    }
+    .scroll{
+    
+        overflow-x: scroll !important;
+    }
+    .footer{
+        background: #191919;
+        padding: 10px 50px !important;
+        width: 1000px;
+    }
+}
+
+
+
+h1{
+    font-weight: bolder;
+}
+
+
+
+.airport-btn{
+    
+    border-radius: 0px;
+    border:3px solid #FF5F00;
+    background-color: transparent;
+    position: relative;
+    color: #FF5F00;
+    outline:none !important;
+    font-size:1.8rem ;
+    font-weight: bold; 
+    text-transform: uppercase;
+    padding: 20px 30px 20px 30px;
+    
+
+}
+
+.white-back{
+    padding:100px 130px 120px 130px;
+}
+
+@media(max-width: 960px){
+    .airport-btn{
+        display: none;
+    }
+    
+}
+
+.txt-right{
+    text-align:right;
+
+}
+
+
+.footer-link{
+    color:#969696 !important;
+    padding: 0px 11px;
+    margin-right: 5px;
+}
+
+#demo{
+    padding: 0px;
+    margin: 0px;
+}
+
+#view-sm{
+    padding-left:0px;
+}
+.myinput {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
