@@ -1,0 +1,38 @@
+{
+	"languages": {
+		"en-US": "انگلیسی",
+		"fa-FA": "فارسی"
+	},
+	"side_bar": {
+		"dashboard": "خانه",
+		"transaction": "خدمات",
+		"documents": "محصولات",
+		"notification": "اخبار",
+		"profile": "درباره ما",
+		"settings": "تماس با ما"
+	},
+	"dashboard": {
+		"my_files": "پرونده های من",
+		"add_new": "افزودن",
+		"google_drive": "گوگل درایو",
+		"one_drive": "وان درایو",
+		"drop_box": "دراپ باکس",
+		"files": "پرونده ها",
+		"file": "پرونده",
+		"size": "سایز",
+		"recent_file": "پرونده های اخیر",
+		"file_name": "نام پرونده",
+		"date": "تاریخ",
+		"xd_file": "پرونده XD",
+		"figma_file": "پرونده Figma",
+		"sound_file": "پرونده صوتی",
+		"media_file": "پرونده چندرسانه ای",
+		"sals_file": "پرونده Sals",
+		"excel_file": "پرونده اکسل",
+		"documents_files": "اسناد پرونده ها",
+		"storage_details":"حافظه ذخیره سازی",
+		"media_files": "پرونده های چندرسانه ای",
+		"other_files": "پرونده های دیگر",
+		"unknown_files": "پرونده های ناشناخته"
+	}
+}
